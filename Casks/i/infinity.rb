@@ -23,4 +23,8 @@ cask "infinity" do
     "~/Library/Preferences/com.electron.infinity.plist",
     "~/Library/Saved Application State/com.electron.infinity.savedState",
   ]
+
+  caveats do
+    requires_rosetta
+  end
 end
