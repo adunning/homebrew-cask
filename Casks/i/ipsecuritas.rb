@@ -34,4 +34,8 @@ cask "ipsecuritas" do
     "/Library/PrivilegedHelperTools/com.lobotomo.IPSecuritasDaemon",
     "~/Library/Preferences/com.lobotomo.IPSecuritas.plist",
   ]
+
+  caveats do
+    requires_rosetta
+  end
 end
